@@ -51,3 +51,33 @@
     
 
 }
+
+@media (max-width : 600px) {
+
+    
+    .page{
+        display: flex;
+        flex-direction: column;
+    }
+    .AuthCard{
+        display: flex;
+        flex-direction: column;
+        padding:  20% 0 ;
+    }
+
+    .SiginupCard , .SigininCard{
+        width: 60%;
+        align-items: center;
+        text-align: left;
+        height: auto;
+    }
+
+
+    .Clear{
+        top: 80px;
+        margin-bottom: 100px;
+        position: relative;
+        left: 40%;
+    }
+
+}
