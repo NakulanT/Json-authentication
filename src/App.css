@@ -1,0 +1,53 @@
+.AuthCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    height: 100vh;
+}
+
+
+.Clear {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Smooth transition for the scale effect */
+}
+
+.summitbutton:active {
+    transform: scale(0.9); /* Scale down the button on click */
+}
+
+
+@media (max-width : 750px) {
+
+    .page{
+        display: flex;
+        flex-direction: column;
+    }
+    .AuthCard{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SiginupCard{
+        margin: 40px;
+    }
+
+    .Clear{
+        top: 80px;
+        margin-bottom: 100px;
+        position: relative;
+        left: 40%;
+    }
+    
+
+}
