@@ -1,0 +1,65 @@
+.SigininCard {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 8px 32px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+    margin: 0 30px;
+     /* Smooth transition for the box shadow */
+}
+
+.SigininCard:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8), 0 16px 64px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+
+.SigininCard h1{
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+}
+
+.SigininCard label {
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+.SigininCard  input {
+    width : 200px;
+    height : 40px;
+    font-size: 13px;
+
+}
+
+.visiblebutton {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none; /* Removes the default focus outline */
+}
+
+.summitbutton {
+    margin-right: 40%;
+    width: 80px;
+    height: 40px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Smooth transition for the scale effect */
+}
+
+.summitbutton:active {
+    transform: scale(0.9); /* Scale down the button on click */
+}
+
+
+.SigininCard .summitbutton{
+    margin-top: 60px;
+}
